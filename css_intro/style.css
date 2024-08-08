@@ -8,7 +8,6 @@
 body {
   color: #444;
   font-family: sans-serif;
-
   border-top: 10px solid #1098ad;
   position: relative;
 }
@@ -136,9 +135,9 @@ li:last-child {
   list-style: none;
 }
 
-body {
-  /* background-color: orangered; */
-}
+/* body {
+  background-color: orangered;
+} */
 
 /* .first-li {
   font-weight: bold;
@@ -152,9 +151,9 @@ li:last-child {
   font-style: italic;
 }
 
-li:nth-child(even) {
-  /* color: red; */
-}
+/* li:nth-child(even) {
+  color: red;
+} */
 
 /* Misconception: this won't work! */
 article p:first-child {
@@ -221,10 +220,10 @@ h1::first-letter {
   font-style: normal;
   margin-right: 5px;
 }
-
+/* 
 h3 + p::first-line {
-  /* color: red; */
-}
+  color: red;
+} */
 
 h2 {
   /* background-color: orange; */
